@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validate the navigation drawer validate drawer menus 1`] = `
+<RCTScrollView
+  data={
+    [
+      {
+        "data": [
+          "Overview",
+          "Calender",
+          "Schedule Action",
+          "Live Alert",
+        ],
+        "title": "Dashboard",
+      },
+      {
+        "data": [
+          "Blogs",
+          "AllBlogs",
+          "Archive",
+        ],
+        "title": "Blogs",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={
+    [
+      0,
+      6,
+    ]
+  }
+>
+  <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    />
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text>
+        Overview
+      </Text>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text>
+        Calender
+      </Text>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text>
+        Schedule Action
+      </Text>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text>
+        Live Alert
+      </Text>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    />
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    />
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text>
+        Blogs
+      </Text>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text>
+        AllBlogs
+      </Text>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text>
+        Archive
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "height": 0,
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;
