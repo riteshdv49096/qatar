@@ -6,6 +6,9 @@ import BlogsComponent from '../blogs/BlogsComponent';
 import { Provider } from 'react-redux';
 import configureStore from '../redux/store';
 
+/**
+ * Drawer container contains drawer Menus
+ */
 const Drawer = createDrawerNavigator();
 const MainDrawerNavigation = () => {
     return (

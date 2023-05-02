@@ -23,6 +23,13 @@ const initUserData = {
     website: '',
 };
 
+/**
+ * Reducer to fetch the user data
+ * 
+ * @param state initUserData has initial data
+ * @param action has action types 
+ * @returns 
+ */
 const fetchUserData = (state = initUserData, action: any) => {
     switch (action.type) {
         case FETCH_USER:
@@ -47,6 +54,13 @@ const fetchUserData = (state = initUserData, action: any) => {
     }
 };
 
+/**
+ * Reducer to update the single post
+ * 
+ * @param state initial state
+ * @param action action type
+ * @returns 
+ */
 const editBlogReducer = (state = initEditBlog, action: any) => {
     switch (action.type) {
         case EDIT_BLOG_POST:
@@ -70,6 +84,13 @@ const editBlogReducer = (state = initEditBlog, action: any) => {
     }
 };
 
+/**
+ * Reducer to get all blogs
+ * 
+ * @param state initial state
+ * @param action action type
+ * @returns 
+ */
 const blogReducer = (state = initialState, action: any) => {
     switch (action.type) {
         case FETCH_BLOG_POSTS:
@@ -94,6 +115,7 @@ const blogReducer = (state = initialState, action: any) => {
     }
 };
 
+// Root reducer to combine all the reducer
 const rootReducer = combineReducers({
     data: blogReducer,
     edit: editBlogReducer,

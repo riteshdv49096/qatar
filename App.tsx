@@ -7,6 +7,8 @@ import EditPost from './src/dashboard/EditPost';
 import MainDrawerNavigation from './src/component/MainDrawerNavigation';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
+
+// App Container 
 const Stack = createNativeStackNavigator();
 const App = () => {
     return (
